@@ -1,0 +1,70 @@
+h1{text-align: center;
+    font-size: 500%;
+   font-family:'Permanent Marker', cursive;
+    margin-left: 30px;
+    
+
+}
+img{
+float:right;
+
+
+border-radius: 50%;
+
+}
+.about{
+    margin-top: 100px;
+    padding: 20px;
+}
+.heading{
+  
+    padding:20px;
+    background: rgb(206,195,211);
+background: radial-gradient(circle, rgba(206,195,211,1) 0%, rgba(227,181,205,1) 0%, rgba(234,176,203,1) 0%, rgba(232,178,204,1) 0%, rgba(224,183,206,1) 0%, rgba(204,197,212,1) 0%, rgba(218,187,208,1) 0%, rgba(148,233,226,1) 100%);
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-align: center;
+}
+body{
+    margin: 0%;
+}
+.column{
+    float: left;
+
+}
+.column.one{
+    background-color: antiquewhite;
+    width: 48%;
+    border: 1px solid black;
+   margin: 5px;
+   height: 250px;
+   padding: 2px;
+}
+.column.two{
+    border: 1px solid black;
+    width: 49%;
+    background-color: antiquewhite;
+    margin: 5px;
+    height: 250px;
+    padding: 2px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row{
+    padding: 0px;
+}
+h3{
+    text-align: center;
+    font-family:'Permanent Marker', cursive;
+}
+pre{
+    font-size: 15px;
+}
